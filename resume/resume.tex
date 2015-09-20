@@ -1,0 +1,238 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.85]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{Pavan}{Hebbar}
+\title{Detailed R\'esum\'e}                               % optional, remove / comment the line if not wanted
+%\address{street and number}{postcode city}{country}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+\phone[mobile]{+918879534302}                   % optional, remove / comment the line if not wanted
+%\phone[fixed]{+2~(345)~678~901}                    % optional, remove / comment the line if not wanted
+%\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
+\email{rpavanhebbar1996@gmail.com}                               % optional, remove / comment the line if not wanted
+%\homepage{www.johndoe.com}                         % optional, remove / comment the line if not wanted
+%\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+\photo[70pt][0.2pt]{institute}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{The Harder you work, the Luckier you get}                                 % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+\section{Education}
+\cventry{2013 -- Present}{B.Tech Aerospace Engineering}{\newline Indian Institute of Technology}{Bombay}{\textit{Grade -- \textbf{9.61/10}}}{\begin{itemize}
+\item \textbf{Department Rank 1} among the class of 2017
+\item Awarded \textbf{AP} grade (for exceptional performance) in Spaceflight Mechanics
+\item Minor: Computer Science, Physics  % arguments 3 to 6 can be left empty
+\end{itemize}}
+\cventry{2011 -- 2013}{Intermediate Examination}{\newline Srichaitanya Narayana Junior College}{Hyderabad}{\textit{Percentage -- \textbf{96.7\%}}}{}
+\cventry{2010 -- 2011}{Matriculation}{\newline Atomic Energy Central School}{Kaiga}{\textit{Grade -- \textbf{10.0/10.0}}}{}
+
+%\section{Master thesis}
+%\cvitem{title}{\emph{Title}}
+%\cvitem{supervisors}{Supervisors}
+%\cvitem{description}{Short thesis abstract}
+
+\section{Achievements}
+\subsection{International Representations}
+%\cventry{2013}{Prof. Harry Messel International Science School}{University of Sydney}{Australia}{}{}
+\cventry{2012}{Bronze Medal, International Olympiad on Astronomy and Astrophysics}{\newline Rio De Janeiro}{Brazil}{}{}
+\cventry{2011}{Silver Medal, International Astronomy Olympiad}{\newline Almaty}{Kazakhstan}{}{}
+\cventry{2013}{Prof. Harry Messel International Science School}{\newline University of Sydney}{Australia}{}{One of the 5 students to represent India}
+\cventry{2012}{IGNOU UNESCO Science Olympiads for SAARC countries}{}{}{}{Awarded medal for being among the top 40 participants}
+\subsection{Other Achievements}
+\cventry{2010 -- 2012}{Olympiad Orientation Cum Selection Camps}{}{}{}{\begin{itemize}
+\item Astronomy Camps (2010, 2011 \& 2012) among top 30 students in India
+\item Awarded \textbf{Best Theory} Solution in 2012 and \textbf{Best Observer} in 2011 Astronomy Camps
+\item Awarded Certificates of Merit in the National Standard Examinations in Astronomy (2010) and Junior Science (2011) for being in top 1\% of the participants.
+\end{itemize}}
+\cventry{2011}{Kishore Vaigyanik Protsahan Yojana Scholarship}{\newline Indian Institute of Science}{Banglore}{}{Awarded by Government of India for students interested in research}
+\cventry{2009}{National Talent Search Examinations}{NCERT}{Delhi}{}{Awarded by Government of India for students interested in research}
+\cventry{2011 \& 2012}{Infosys Award for Olympiad Medalists}{}{}{}{}
+\cventry{2010 \& 2011}{Young Scientist Award}{}{}{}{Honoured by Education Minister of Karnataka state}
+\cventry{2013}{Inter IIT Messier Marathon}{}{}{}{Secured IIT Bombay the second position by putting on board 72 Messier objects including the entire Virgo cluster of galaxies}
+%\cventry{}{}{}{}{}{}
+\newpage
+
+\section{Research Experience}
+%\subsection{Physics and Astronomy}
+\cventry{May 2015 -- Present}{Numerical Simulation of Collisionless Shocks}{\newline Prof. Bhooshan Paradkar, Centre for Excellence in Basic Sciences, University of Mumbai}{}{}{%General description no longer than 1--2 lines.\newline{}%
+%Detailed achievements:%
+\begin{itemize}%
+\item Studied the basics of plasma theory and  its magnetohydrodynamic relations
+\item Used Particle-in-Cell approach through WARP open source code
+\item Numerically simulated plasma particles to calculate shock parameters
+\item Analysed the variation of shock parameters for different plasma particles
+\item Worked on parallel programming to reduce the simulation time
+%\item Achievement 2, with sub-achievements:
+  %\begin{itemize}%
+ % \item Sub-achievement (a);
+  %\item Sub-achievement (b), with sub-sub-achievements (don't do this!);
+    %\begin{itemize}
+    %\item Sub-sub-achievement i;
+    %\item Sub-sub-achievement ii;
+    %\item Sub-sub-achievement iii;
+    %\end{itemize}
+  %\item Sub-achievement (c);
+  %\end{itemize}
+%\item Achievement 3.
+\end{itemize}}
+
+\cventry{May 2015 -- Present}{Computational Modelling of Hall Thrusters}{\newline Prof. Kowsik Bodi, Department of Aerospace, Indian Institute of Technology Bombay}{}{}{\begin{itemize}
+\item Studied different rocket propulsion systems and analysed their efficiency
+\item Numerically simulated the motion of plasma particles to calculate the exhaust velocity of the gas
+\item Analysed the variation of specific thrust with changing axial electric and radial magnetic fields
+\item Optimized the electric and magnetic fields to achieve maximum efficiency
+\end{itemize}}
+
+\cventry{December 2014}{Using OH Mega-Masers To Verify Galaxy Evolution Theories}{\newline National Initiative for Undergraduate Science -- Physics}{\newline \textit{Dr. Nissim Kanekar, National Centre for Radio Astronomy}}{}{\begin{itemize}
+\item Studied the properties of different types of astronomical masers in detail
+\item Understood the different aspects related to radio astronomy, interference and synthesis imaging
+\item Analysed variation in number density \& mass of mega-masers with redshift to verify evolution theories
+\end{itemize}}
+
+\cventry{December 2013}{Gamma Ray Detection Through Čerenkov Radiation}{\newline National Initiative for Undergraduate Science -- Astronomy}{\newline Dr. K K Yadav, Bhabha Atomic Research Center, Mumbai}{}{\begin{itemize}
+\item Studied the various concepts involved in the detection of gamma rays though Čerenkov emission.
+\item Designed programs to differentiate between Čerenkov emission shower due to cosmic and gamma rays
+\item Analysed data collected from the TACTIC to study the properties of Crab Nebula and MRK 421
+\end{itemize}}
+
+\cventry{March 2015}{Modelling of QuickSCAT trajectory}{\newline Prof. Ashok Joshi, Department of Aerospace, Indian Institute of Technology Bombay}{}{}{\begin{itemize}
+\item Studied the various forces acting on a launch vehicles and how to model them
+\item Studied the propulsion systems used in different stages to calculate specific thrust.
+\item Calculated the trajectory of QuickSCAT satellite from its final parameters and given burn profile
+\item Estimated the change in the fuel consumed and the optimum burn profile if the payload is increased
+\end{itemize}}
+%\cventry{}{}{}{}{}{}
+
+\section{Technical Experience}
+\cventry{2013 -- Present}{Mechanical Subsystem, Pratham -- Student Satellite Team of IIT Bombay}{}{}{}{\begin{itemize}
+\item{Performed Vibrational Analysis, Harmonic Analysis, Modal Analysis, Response Spectrum of the satellite}
+ \item{Performed steady-state and transient thermal analysis to determine the temperature distribution}
+ \item{Proposed SNAP model to switch the satellite on when it is launched with minimum power}
+ \item{Optimized satellite models used for analysis to minimize simulation time and maximize accuracy}
+ \item{Implemented ways to access the server remotely and perform parallel processing on ANSYS}
+ \item{Worked in the payload subsystem and suggested payloads for the next student satellite}
+\end{itemize}}
+\cventry{June 2014}{Sky Teller -- Institute Technical Summer Project}{}{}{}{\begin{itemize}
+\item Involved in the design of an Android app to show the stars in the given direction
+\item Used the data catalogued in Stellarium Planetarium for the position of celestial objects at a given time
+\item Used accelerometer of the phone to know the direction being pointed
+\end{itemize}}
+
+\newpage
+
+\section{Work Experience}
+\cventry{June 2015}{Resource Person and Student Facilitator}{}{}{}{\begin{itemize}
+\item Selected as a resource person for the Indian Astronomy Olympiad OCSC (Orientation-Cum-Selection Camp) for mentoring students, handling academic arrangements and aiding in evaluations
+\item Involved in the selection and training of Indian team which won 3 gold medals and 2 silver medals at International Olympiad for Astronomy and Astrophysics 2015.
+\end{itemize}}
+
+\cventry{July 2015}{Academic Committee Member -- International Physics Olympiad 2015}{}{}{}{\begin{itemize}
+\item Selected as a student grader for the theory round of the olympiad
+\item Involved in the critical discussion of theory questions
+\item Evaluated the answer scripts of students from 89 different countries
+\end{itemize}}
+
+\cventry{2014-2015}{Teaching Assistant -- Introduction to Quantum Mechanics and Applications}{}{}{}{\begin{itemize}
+\item Selected thrice (Autumn 2014, Summer 2015, Autumn 2015) as a teaching assistant for the course
+\item Held tutorials where problems and doubts of students were discussed
+\item Evaluated the answer scripts of students in various exams.
+\end{itemize}}
+
+\cventry{March 2015 -- Present}{Manager, Krittika -- Astronomy Club of IIT Bombay}{}{}{}{\begin{itemize}
+	 \item{Planned a budget of 2.25 lakhs for club activities including lectures, documentary screenings, night-sky observations and workshops, field trips and competitions}
+	 \item{Organized Institute Technical Summer Project $2015$ which had a budget of 8 lakhs}
+	 \item{Planned and organized the Inter IIT Messier Marathon 2014-15}
+	 \item{Selected college level teams to participate in intercollegiate events}
+	\end{itemize}}
+
+\section{Research Interests}
+
+% \cventry{}{Astronomy and Astrophysics}{}{}{}{\begin{itemize}
+% \item Cosmology and large-scale structure of universe
+% \item Stellar Structure and Evolution
+% \item Interference and Synthesis Imaging in Radio Astronomy
+% \item Gamma ray observations and its subsequent processing
+% \item Analysing stability and evolution of Multi-body systems
+% \end{itemize}}
+
+% \cventry{}{Aerospace}{}{}{}{\begin{itemize}
+% \item Plasma flows and its applications
+% \item Fluid flow across shocks
+% \item Structural dynamics and Vibrations
+% \item Steady state and Transient thermal Analysis
+% \end{itemize}}
+\vspace{-15}
+\cventry{}{}{}{}{}{
+\begin{table}
+    \centering
+    \begin{tabular}{ll}
+        \textbf{Astronomy and Astrophysics}                     & \hspace{10} \textbf{Aerospace}                          \\
+        Cosmology and large-scale structure of universe         & \hspace{10} Plasma flows and applications               \\
+        Stellar structure and evolution                         & \hspace{10} Fluid flow across shocks                    \\
+        Interference and synthesis imaging in radio astronomy   & \hspace{10} Structural dynamics and vibrations          \\
+        Gamma ray observations and subsequent processing        & \hspace{10} Steady state and Transient thermal Analysis \\
+        Analysing stability and evolution of multi-body systems &                                            
+    \end{tabular}
+\end{table}}
+
+\section{Relevant Skills}
+
+\cvitem{\textbf{Languages}}{C/C++, Python, Shell Scripting, Matlab, HTML, \LaTeX}
+\cvitem{\textbf{Software}}{ANSYS, NASTRAN, OpenFOAM, SolidWorks CAD, AutoCAD, Photoshop}
+\cvitem{\textbf{Packages}}{Python packages: WARP, NumPy, SciPy and Matplotlib, GNUPlot, Astropy}
+
+\section{Relevant Courses Undertaken}
+
+\cvitem{\textbf{Physics and Maths}}{The General Theory of Relativity, Quantum Mechanics I, Quantum mechanics and Aplications, Electricity and Magnetism, Classical Mechanics, Nonlinear Dynamics, Differential Equations, Linear Algebra, Calculus, Introduction to Numerical Analysis}
+
+\cvitem{\textbf{Aerospace Engineering}}{Vibrations and Structural Dynamics, Aerospace Structures, Solid Mechanics, Continuum Mechanics, Compressible and Incompressible Fluid Mechanics, Thermodynamics and Propulsion, Engineering Design Optimisation}
+
+\cvitem{\textbf{Computer Sciences}}{Data Structures and Analysis, Logic for Computer Programming, Introduction to Computer Science}
+
+\section{Publications}
+\vspace{-15}
+\cventry{}{}{}{}{}{\begin{itemize}
+\item R. Mishra, S. Shahane, P. Hebbar, S. Thermal, Manmohan \newline Designing and Analysis Using ANSYS for `Pratham' Student Satellite IIT Bombay”, $65^{th}$\newline International Astronautical Congress 2014, Toronto, Canada
+\item R. Mishra, S. Shahane, P. Hebbar, S. Thermal, Manmohan\newline ``Structural Dynamics-Modeling and Simulation of IITB Student Satellite-Pratham'', \newline National Seminar on Aerospace Structures 2014
+\end{itemize}}
+
+\end{document}
+
+
+%% end of file `template.tex'.
