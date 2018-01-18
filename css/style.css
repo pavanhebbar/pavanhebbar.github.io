@@ -386,6 +386,9 @@ nav .logo a {
 	display: inline-block;
 	text-transform: uppercase;
 }
+nav .current {
+	background-color: red;
+}
 .menu {
 	position: fixed;
 	display: inline-block;
@@ -435,7 +438,7 @@ span.bar {
 .active-side-menu {
 	left: 0;
 	position: fixed;
-	width: 100%;
+	width: 25%;
 	height: 100%;
 	z-index: 9998;
 }
